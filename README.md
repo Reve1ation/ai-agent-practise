@@ -93,23 +93,3 @@ python -m unittest discover -s . -p "tests.py"
 Be sure every tool validates the requested path with `check_working_directory` to keep execution inside the sandbox.
 
 ---
-
-## Git workflow tips
-
-* First-time push:
-  ```bash
-  git remote add origin https://github.com/Reve1ation/ai-agent-practise.git
-  git branch -M main
-  git push -u origin main
-  ```
-* To unstage a file (e.g. `uv.lock`):
-  ```bash
-  git restore --staged uv.lock   # or: git reset HEAD -- uv.lock
-  ```
-* Add patterns you never want in Git to `.gitignore`.
-
----
-
-## License
-
-MIT – see `LICENSE` (or choose another licence).
